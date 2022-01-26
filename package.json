@@ -1,0 +1,29 @@
+{
+  "name": "@andystevenson/sass",
+  "version": "0.1.0",
+  "description": "sass library for all projects",
+  "main": "style.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andystevenson/sass.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "styles",
+    "library"
+  ],
+  "author": "andystevenson@mac.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andystevenson/sass/issues"
+  },
+  "homepage": "https://github.com/andystevenson/sass#readme",
+  "devDependencies": {
+    "vite": "^2.7.13"
+  }
+}
