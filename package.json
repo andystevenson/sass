@@ -1,6 +1,6 @@
 {
   "name": "@andystevenson/sass",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "sass library for all projects",
   "style": "./src/sass/styles.scss",
   "scripts": {
@@ -28,6 +28,7 @@
     "open-props": "^1.2.1"
   },
   "devDependencies": {
+    "@andystevenson/sass": "^0.1.0",
     "postcss": "^8.4.5",
     "postcss-custom-media": "^8.0.0",
     "postcss-jit-props": "^1.0.4",
