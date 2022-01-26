@@ -1,0 +1,4 @@
+html[data-theme='dark'] [data-theme='light'].theme-toggle,
+html[data-theme='light'] [data-theme='dark'].theme-toggle {
+  display: none;
+}

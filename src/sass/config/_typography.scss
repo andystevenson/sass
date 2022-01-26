@@ -1,0 +1,9 @@
+main {
+  h1 {
+    max-inline-size: var(--size-content-2);
+    font-size: var(--font-size-fluid-3);
+    @media (--md-n-below) {
+      text-align: center;
+    }
+  }
+}

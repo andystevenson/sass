@@ -1,0 +1,21 @@
+@use 'config';
+@use 'utility';
+@use 'component';
+
+body {
+  display: grid;
+  place-content: center;
+  padding: 5vmin;
+  gap: 5vmin;
+}
+
+article,
+section,
+form,
+fieldset,
+header,
+.page,
+.spaced {
+  display: grid;
+  gap: 3vmin;
+}
