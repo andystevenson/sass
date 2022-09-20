@@ -3,8 +3,6 @@
   position: absolute;
   top: -100%;
   inline-size: max-content;
-  display: grid;
-  place-items: center;
 
   :focus-visible {
     top: 0;
