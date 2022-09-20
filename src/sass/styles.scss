@@ -2,11 +2,16 @@
 @use 'utility';
 @use 'component';
 
+:root {
+  --gap: var(--size-2);
+  --gap-fluid: var(--size-fluid-1);
+}
+
 body {
   display: grid;
-  place-content: center;
-  padding: 5vmin;
-  gap: 5vmin;
+  place-items: center;
+  padding: var(--gap);
+  gap: var(--gap);
 }
 
 article,
@@ -14,8 +19,7 @@ section,
 form,
 fieldset,
 header,
-.page,
-.spaced {
+blockquote {
   display: grid;
-  gap: 3vmin;
+  gap: var(--gap);
 }

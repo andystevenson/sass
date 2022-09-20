@@ -1,6 +1,6 @@
 {
   "name": "@andystevenson/sass",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "sass library for all projects",
   "style": "./src/sass/styles.scss",
   "scripts": {
