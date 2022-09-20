@@ -7,4 +7,12 @@
   border-radius: var(--radius-round);
   background-color: var(--brand);
   z-index: var(--layer-important);
+
+  :focus-visible {
+    scale: 1.2;
+  }
+
+  img {
+    min-inline-size: var(--size-5);
+  }
 }

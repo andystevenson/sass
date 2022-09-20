@@ -5,8 +5,14 @@
   max-inline-size: max-content;
 
   :focus-visible {
+    display: grid;
+    place-items: center;
     top: 0;
     margin-inline-start: var(--indent);
     margin-block-start: var(--indent);
+  }
+
+  img {
+    min-inline-size: var(--size-5);
   }
 }
