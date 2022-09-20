@@ -26,6 +26,6 @@ blockquote {
   gap: var(--gap);
 }
 
-[aria-hidden='true'] {
+[aria-hidden] {
   pointer-events: none;
 }
