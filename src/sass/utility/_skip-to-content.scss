@@ -2,11 +2,11 @@
   --indent: 0.5em;
   position: absolute;
   top: -100%;
-  max-inline-size: max-content;
+  inline-size: max-content;
+  display: grid;
+  place-items: center;
 
   :focus-visible {
-    display: grid;
-    place-items: center;
     top: 0;
     margin-inline-start: var(--indent);
     margin-block-start: var(--indent);
