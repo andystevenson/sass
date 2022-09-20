@@ -8,7 +8,7 @@
   background-color: var(--brand);
   z-index: var(--layer-important);
 
-  :focus-visible {
+  &:focus-visible {
     scale: 1.2;
   }
 

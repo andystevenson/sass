@@ -4,7 +4,9 @@
   top: -100%;
   inline-size: max-content;
 
-  :focus-visible {
+  &:focus-visible {
+    display: grid;
+    place-items: center;
     top: 0;
     margin-inline-start: var(--indent);
     margin-block-start: var(--indent);
