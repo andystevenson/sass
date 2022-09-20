@@ -25,3 +25,7 @@ blockquote {
   display: grid;
   gap: var(--gap);
 }
+
+[aria-hidden='true'] {
+  pointer-events: none;
+}

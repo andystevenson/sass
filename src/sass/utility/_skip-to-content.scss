@@ -4,7 +4,7 @@
   top: -100%;
   max-inline-size: max-content;
 
-  &:focus-visible {
+  :focus-visible {
     top: 0;
     margin-inline-start: var(--indent);
     margin-block-start: var(--indent);
