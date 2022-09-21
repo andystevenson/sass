@@ -10,6 +10,9 @@
     top: 0;
     margin-inline-start: var(--indent);
     margin-block-start: var(--indent);
+    background-color: var(--surface-4);
+    padding: var(--size-2);
+    z-index: var(--layer-important);
   }
 
   img {
