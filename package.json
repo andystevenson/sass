@@ -1,7 +1,10 @@
 {
   "name": "@andystevenson/sass",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "sass library for all projects",
+  "publishConfig": {
+    "access": "public"
+  },
   "style": "./src/sass/styles.scss",
   "scripts": {
     "start": "vite"
@@ -24,15 +27,15 @@
   },
   "homepage": "https://github.com/andystevenson/sass#readme",
   "dependencies": {
-    "@andystevenson/theme-toggle": "^0.1.4",
-    "open-props": "^1.2.1"
+    "@andystevenson/theme-toggle": "^0.1.5",
+    "bootstrap-icons": "^1.10.5",
+    "open-props": "^1.5.15"
   },
   "devDependencies": {
-    "@andystevenson/sass": "^0.1.0",
-    "postcss": "^8.4.5",
-    "postcss-custom-media": "^8.0.0",
-    "postcss-jit-props": "^1.0.4",
-    "sass": "^1.49.0",
-    "vite": "^2.7.13"
+    "postcss": "^8.4.29",
+    "postcss-custom-media": "^10.0.0",
+    "postcss-jit-props": "^1.0.13",
+    "sass": "^1.66.1",
+    "vite": "^4.4.9"
   }
 }
